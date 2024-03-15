@@ -1,0 +1,61 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    /* CONTAINER */
+    .max-container {
+        @apply bg-blue-100  ;
+    }
+    .hero-area{
+        @apply lg:px-0  xl:px-0 2xl:px-16;
+    }
+    .hero-title {
+        @apply text-2xl md:text-5xl float-start lg:text-4xl xl:text-5xl 2xl:text-5xl mb-8 font-bold;
+    }
+    .hero-img {
+        @apply sm:mx-auto md:w-full m-2  lg:w-96 mb-5
+       
+       
+    }
+    .hero-description {
+        @apply text-base  md:text-2xl mx-4 sm:mx-0 mt-16;
+    }
+    .hero-button{
+        @apply  bg-blue-500 hover:bg-blue-600 text-white font-bold h-12 w-36
+    }
+    .hero-button2{
+        @apply   bg-blue-500 hover:bg-blue-600 text-white font-bold h-12 ms-5 w-36
+    }
+    .service-title{
+  
+            @apply font-semibold tracking-wide mx-auto mt-16 mb-16; /* Base styles */
+            
+           
+            @apply sm:text-4xl md:text-3xl lg:text-5xl xl:text-5xl 2xl:text-5xl;
+            
+           
+            @apply w-full; 
+            @apply 2xl:w-1/2; 
+            @apply tracking-wide;
+        }
+        .market-research{
+            @apply w-60 mb-16
+        }
+        .optimism-title{
+            @apply 2xl:text-5xl sm:text-5xl xl:text-5xl lg:text-3xl mt-24 mb-24 font-bold;
+          
+          
+          
+    
+        }
+        .feature {
+            @apply  w-96  shadow-2xl  mt-16
+       
+          
+          }
+          
+       
+    }
+
+    
